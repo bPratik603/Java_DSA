@@ -5,10 +5,18 @@ public class Squareroot {
     static int getSquare(int num){
         int square = 0;
       for(int i=1;i*i<=num;i++){
-          if(i*i == num){
+          if(i*i <= num){
              square = i;
           }
       }
+
+    //   for(int i = 1;i<=num;i++){
+    //     if(i*i <= num){
+    //         square = i;
+    //     }else{
+    //         break;
+    //     }
+    //   }
 
       return square;
     }
