@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Squareroot {
 
-    static int getSquare(int num){
+    static int getSqrt(int num){
         int square = 0;
       for(int i=1;i*i<=num;i++){
           if(i*i <= num){
@@ -28,7 +28,7 @@ public class Squareroot {
         System.out.println("Enter Number");
         int num = sc.nextInt();
 
-        int square = getSquare(num);
+        int square = getSqrt(num); 
 
         System.out.println("Square root of "+num+" is "+square);
     }
