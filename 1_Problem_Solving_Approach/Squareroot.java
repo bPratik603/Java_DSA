@@ -4,7 +4,7 @@ public class Squareroot {
 
     static int getSqrt(int num){
         int square = 0;
-      for(int i=1;i*i<=num;i=i+2){
+      for(int i=1;i*i<=num;i++){
           if(i*i <= num){
              square = i;
           }
