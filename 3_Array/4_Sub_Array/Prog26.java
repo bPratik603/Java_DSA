@@ -13,7 +13,7 @@
         }
 
         for(int i=0;i<arr.length;i++){
-            for(int j=i;j<arr.length;j++){
+            for(int j=i;j<arr.length;j++){ 
               int sum = 0;
                 if(i == 0){
                     sum= tmp[j];
